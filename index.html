@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        .tab2,
+        table,
+        tr,
+        td {
+            border: 2px solid black;
+            height: 98vh;
+            width: 98vw;
+        }
+
+        @media screen and (max-width:426px) {
+            .row1 {
+                background: linear-gradient(-45deg, aqua, chartreuse, deepskyblue, tomato);
+            }
+
+            .row2 {
+                background: linear-gradient(45deg, aqua, chartreuse, deepskyblue, tomato);
+            }
+
+            .row3 {
+                background: linear-gradient(-125deg, aqua, chartreuse, deepskyblue, tomato);
+            }
+
+            .row4 {
+                background: linear-gradient(125deg, aqua, chartreuse, deepskyblue, tomato);
+            }
+
+            .tab3,
+            .tab4 {
+                display: none;
+            }
+        }
+
+
+        .tab3,
+        table,
+        tr,
+        td {
+            border: 2px solid black;
+            height: 20vh;
+            width: 98vw;
+            margin-top: 15%;
+        }
+
+        @media screen and (min-width:427px) and (max-width:769px) {
+            .row11 {
+                background: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+            }
+
+            .row12 {
+                background: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+            }
+
+            .row13 {
+                background: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+            }
+
+            .row14 {
+                background: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+            }
+
+            .row15 {
+                background: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+            }
+
+            .row16 {
+                background: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+            }
+
+            .row17 {
+                background: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+            }
+
+            .row18 {
+                background: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+            }
+
+            .row19 {
+                background: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+            }
+
+            .tab2,
+            .tab4 {
+                display: none;
+            }
+        }
+
+
+
+        .tab4,
+        table,
+        tr,
+        td {
+            border: 2px solid black;
+            height: 20vh;
+            width: 98vw;
+            margin-top: 5%;
+        }
+
+        @media screen and (min-width:769px) and (max-width:2561px) {
+            .col11 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col12 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col13 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col14 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col21 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col22 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col23 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col24 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col31 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col32 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col33 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col34 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col41 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col42 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col43 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .col44 {
+                background: repeating-linear-gradient(-30deg, rgb(238, 103, 213), aqua 20%, chartreuse 10%);
+            }
+
+            .tab3,
+            .tab2 {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table class="tab2">
+        <tr>
+            <td class="row1"></td>
+            <td class="row2"></td>
+        </tr>
+        <tr>
+            <td class="row3"></td>
+            <td class="row4"></td>
+        </tr>
+    </table>
+
+
+    <table class="tab3">
+        <tr>
+            <td class="row11"></td>
+            <td class="row12"></td>
+            <td class="row13"></td>
+        </tr>
+        <tr>
+            <td class="row14"></td>
+            <td class="row15"></td>
+            <td class="row16"></td>
+        </tr>
+        <tr>
+            <td class="row17"></td>
+            <td class="row18"></td>
+            <td class="row19"></td>
+        </tr>
+    </table>
+
+    <table class="tab4">
+        <tr>
+            <td class="col11"></td>
+            <td class="col12"></td>
+            <td class="col13"></td>
+            <td class="col14"></td>
+        </tr>
+        <tr>
+            <td class="col21"></td>
+            <td class="col22"></td>
+            <td class="col23"></td>
+            <td class="col24"></td>
+        </tr>
+        <tr>
+            <td class="col31"></td>
+            <td class="col32"></td>
+            <td class="col33"></td>
+            <td class="col34"></td>
+        </tr>
+        <tr>
+            <td class="col41"></td>
+            <td class="col42"></td>
+            <td class="col43"></td>
+            <td class="col44"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
